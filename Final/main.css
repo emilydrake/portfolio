@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.heading {
+    width: 900px;
+    margin: auto;
+    left: 200px;
+}
+
+.star1 {
+    width: 500px;
+    left: 30px;
+    top: 270px;
+    position: absolute;
+}
+
+.star2 {
+    width: 300px;
+    left: 120px;
+    top: 70px;
+    position: absolute;
+}
+
+.star3 {
+    width: 600px;
+    right: -170px;
+    top: 70px;
+    position: absolute;
+}
+
+
+
+html, body{
+    margin:0;
+    padding:0;
+    width:100;
+}
+
+body {
+    min-height:100vh;
+
+
+    background-image: url(grass_background.png);
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat
+}
+
+.page-content {
+    height: 3000px;
+}
